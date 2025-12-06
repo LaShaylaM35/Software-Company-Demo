@@ -1,0 +1,61 @@
+.image {
+    width: 300px;
+    height: auto;
+}
+
+body { background: rgb(42, 38, 39);
+font-size: medium;
+font-style: italic;
+color: white;
+}
+
+h1 { color: rgb(194, 122, 194);
+font-size: xx-large;    
+}
+
+label { color: rgb(242, 196, 229);
+}
+
+input { background: rgb(241, 210, 236);
+color: rgb(246, 183, 248);
+}
+
+
+nav { background-color: rgb(194, 122, 194);
+} 
+
+footer { background-color: rgb(194, 122, 194);
+}
+
+a { color: white;
+}
+
+a:hover { color: rgb(246, 183, 248);
+}
+
+p { color: rgb(179, 172, 178);
+font-size: medium;  
+}     
+
+.languages {
+    
+    width: 200px;
+    
+
+}     
+
+.container {
+     display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: start;
+        margin-top: 20px;
+
+}
+
+.formbutton {
+    color: violet;
+    background-color: purple;
+
+}
+
