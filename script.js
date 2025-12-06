@@ -15,7 +15,7 @@ async function createLead(){
     }
 
  
-    let response = await fetch(url , {
+    let response = await post(url , {
         method: "POST",
         headers: {
             "apikey" : apikey,
